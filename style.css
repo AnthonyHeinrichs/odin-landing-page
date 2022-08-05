@@ -1,0 +1,39 @@
+body, p {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif
+}
+
+.header {
+  background-color: #1f2937;
+  height: 80px;
+  width: 100%;
+}
+
+.headerContent {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+}
+
+.headerLogo {
+  color: #F9FAF8;
+  font-size: 24px;
+  font-weight: bolder;
+  letter-spacing: -0.06em;
+  margin-top: 16px;
+  margin-left: 200px;
+}
+
+.headerLink {
+  color: #F9FAF8;
+  margin-top: 24px;
+  margin-right: 200px;
+}
+
+.headerLinkTwo {
+  margin-left: 16px;
+}
+
+.headerLinkThree {
+  margin-left: 16px;
+}
