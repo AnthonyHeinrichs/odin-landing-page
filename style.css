@@ -37,3 +37,74 @@ body, p {
 .headerLinkThree {
   margin-left: 16px;
 }
+
+.subheader {
+  display: flex;
+  justify-content: space-between;
+  background-color: #1f2937;
+  height: 300px;
+}
+
+.subheaderRightImg {
+  max-height: 300px;
+  max-width: 800px;
+  width: 400px;
+  height: 200px;
+  object-fit: cover;
+  margin-right: 200px;
+  margin-top: 24px;
+}
+
+.subheaderLeft {
+  margin-left: 200px;
+  color: #F9FAF8;
+}
+
+.subheaderLeftTitle {
+  font-size: 48px;
+  margin-bottom: 8px;
+  margin-top: 24px;
+  width: 400px;
+}
+
+.subheaderLeftParagraph {
+  width: 400px;
+  margin-bottom: 16px;
+}
+
+.mainInfoTitle {
+  font-size: 36px;
+  font-weight: bolder;
+  color: #1f2937;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.mainInfoImages {
+  display: flex;
+  justify-content: center;
+  gap: 36px;
+}
+
+.mainInfoImg {
+  width: 160px;
+  text-align: center;
+}
+
+.infoImg {
+  border: 3px solid #3B82F6;
+  border-radius: 8px;
+  height: 140px;
+  width: 140px;
+  margin-bottom: 8px;
+}
+
+button {
+  background-color: #3B82F6; 
+  border-radius: 5px; 
+  padding: 6px;
+  width: 80px;
+  border: none;
+  color: white;
+}
