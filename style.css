@@ -108,3 +108,36 @@ button {
   border: none;
   color: white;
 }
+
+.quote {
+  height: 400px;
+  margin-top: 16px;
+  background-color: #E5E7EB;
+}
+
+.quoteMain {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.quoteSub {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.quoteText {
+  width: 700px;
+  font-size: 36px;
+  margin-top: 100px;
+  font-weight: 100;
+  font-style: italic;
+  color: #1F2937;
+}
+
+.quoteAuthor {
+  text-align: right;
+  width: 700px;
+  margin-top: 0px;
+}
