@@ -100,7 +100,7 @@ body, p {
   margin-bottom: 8px;
 }
 
-button {
+.subheaderButton {
   background-color: #3B82F6; 
   border-radius: 5px; 
   padding: 6px;
@@ -140,4 +140,58 @@ button {
   text-align: right;
   width: 700px;
   margin-top: 0px;
+}
+
+.centerCallToAction {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.callToAction {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #3B82F6;
+  border-radius: 8px;
+  width: 900px;
+  align-self: center;
+  margin-top: 36px;
+  margin-bottom: 36px;
+}
+
+.callToActionText {
+  padding: 16px;
+}
+
+.callToActionTitle {
+  margin: 0;
+  color: #E5E7EB;
+}
+
+.callToActionSubtext {
+  color: #E5E7EB;
+}
+
+.callToActionButton {
+  background-color: #3B82F6; 
+  border: 2px solid #E5E7EB;
+  border-radius: 5px; 
+  padding: 6px;
+  width: 80px;
+  color: #E5E7EB;
+  margin-left: 36px;
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100px;
+  background-color:#1F2937;
+}
+
+.footerText {
+  color:#E5E7EB;
+  font-size: 16px;
 }
